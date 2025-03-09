@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*=1h7e(r7=6kq!67%s9tf*uei%w-quznbq8%a#hec=q5mu2-5l'
+SECRET_KEY = r'django-insecure-*=1h7e(r7=6kq!67%s9tf*uei%w-quznbq8%a#hec=q5mu2-5l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -34,6 +34,7 @@ ALLOWED_HOSTS = [
 CSRF_TRUSTED_ORIGINS = [
     "https://bits-pilani.store",
     "https://www.bits-pilani.store",
+    "http://127.0.0.1:8000"
 ]
 
 # Application definition
