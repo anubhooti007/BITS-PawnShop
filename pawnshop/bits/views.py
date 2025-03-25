@@ -399,4 +399,4 @@ def bypass(request):
             'email': 'vishrut172@gmail.com',
             'name': 'Vishrut'
         }
-        return render(request, 'bits/home.html')
+        return HttpResponseRedirect(reverse('home'))
