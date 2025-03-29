@@ -1,13 +1,22 @@
 from django import forms
 from .models import *
+from .models import Item, Hostel, Category, Feedback
 
 class ItemForm(forms.ModelForm):
+    hostel = forms.ModelChoiceField(
+        queryset=Hostel.objects.all(),
+        empty_label="Select your hostel"
+    )
+    category = forms.ModelChoiceField(  # Add this explicit field
+        queryset=Category.objects.all(),
+        empty_label="Select a category"
+    )
     class Meta:
         model = Item
         fields = ['name', 'description', 'price', 'category', 'hostel', 'phone']
         widgets = {
             'description': forms.Textarea(attrs={'rows': 4}),
-            'hostel': forms.Select(choices=[(hostel.name, hostel.name) for hostel in Hostel.objects.all()]),
+            #'hostel': forms.Select(choices=[(hostel.name, hostel.name) for hostel in Hostel.objects.all()]),
             'category': forms.Select(choices=[(category.name, category.name) for category in Category.objects.all()]),
             'phone': forms.TextInput(attrs={'placeholder': '(WhatsApp) Required if not provided one before'})
         }

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: bits-pawnshop
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn pawnshop.wsgi:application"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: bitsdb
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"

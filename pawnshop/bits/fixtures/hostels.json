@@ -1,0 +1,142 @@
+[
+    {
+        "model": "bits.hostel",
+        "pk": "AH1",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "AH2",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "AH3",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "AH4",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "AH5",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "AH6",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "AH7",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "AH8",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "AH9",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "CH1",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "CH2",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "CH3",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "CH4",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "CH5",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "CH6",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "CH7",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "DH1",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "DH2",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "DH3",
+        "fields": {
+            "campus": "GOA"
+        }
+    },
+    {
+        "model": "bits.hostel",
+        "pk": "DH4",
+        "fields": {
+            "campus": "GOA"
+        }
+    }
+] 

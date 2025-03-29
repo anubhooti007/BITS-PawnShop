@@ -159,8 +159,8 @@ AUTHENTICATION_BACKENDS = [
 ]
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '1023178212985-ag817naoes93gt8dfb2d9rvb5gigndv1.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+#SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '204617559445-uvfdhg1jik581vb9auf2m1pr8o8faa8k.apps.googleusercontent.com'
+#SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 from dotenv import load_dotenv
 from pathlib import Path
 
